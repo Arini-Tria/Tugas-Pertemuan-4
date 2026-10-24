@@ -1,0 +1,111 @@
+body {
+    background-color: #eaf2f8; /* Warna HEX */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.6;
+    margin: 0;
+    padding: 30px;
+}
+
+.kartu {
+    width: 550px;
+    max-width: 100%;
+    box-sizing: border-box;
+    background-color: white; /* Warna berdasarkan nama */
+    margin: 30px auto;
+    padding: 30px;
+    border: 2px solid #3498db;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+#judul {
+    color: rgb(41, 128, 185); /* Warna RGB */
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: navy;
+    font-size: 20px;
+}
+
+.kartu table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.kartu table td {
+    padding: 8px;
+    border: 1px solid #d6eaf8;
+}
+
+.kartu table td {
+    font-weight: bold;
+    color: #21618c;
+    width: 30%;
+}
+
+.tentang-saya {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.tentang-saya h2 {
+    text-align: left;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.tentang-saya p {
+    color: #444444;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.keahlian {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.keahlian h2 {
+    text-align: left;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.label {
+    display: inline-block;
+    background-color: rgba(52, 152, 219, 0.15);
+    color: #21618c;
+    padding: 6px 14px;
+    margin: 4px 4px 4px 0;
+    border: 1px solid #3498db;
+    border-radius: 20px;
+}
+
+.kontak {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.tombol {
+    display: inline-block;
+    background-color: #2980b9;
+    color: white;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.tombol:hover {
+    background-color: navy;
+}
